@@ -20,26 +20,22 @@ An overview of the format I play (Head-to-Head, 9-Categories):
   - Winning each category is worth 1 point. A tie results in no points for either manager.
   - Managers can replace any player with a current active NBA player ("Free Agents"), provided that neither is currently mid-game. 
 
-## The Data
-
 There are 9 ways to keep score in a game of fantasy basketball, compared to just 1 in real life. 
 
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/yfmatchup.JPG?raw=true)
      
-From these 9, you only need 5 to win. Therefore, one strategy might be to focus on 5 or 6 stats. To do this, you need to be able to compare how your players perform on average against players from your opponent for the week, or even other players across the league. That can be difficult to do, if this is what you're looking at.
+From these 9, you only need 5 to win. Therefore, one strategy might be to focus on 5 or 6 stats. To do this effectively, however, you need to be able to compare how your players perform on average against your opponent's players. That can be difficult to do if this is what you're looking at:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/yfmatchup2.JPG?raw=true)
 
+Yikes. 
 
-  
-  
-  
-  
-  
+Yahoo's deafult tables are notoriously unhelpful for assessing comparative advantages. Furthermore, they don't let you compare "hypothetical team" performance (i.e. in the event of substituting players on your team for free agents) against other players. These more sophisticated visualizations and features are locked behind a premium subscription.
+
 ## Audience and Features
 Solution: Build a program that unlocks a premium feature like basic matchup analysis--comparing two teams' expected statistical outputs and declaring the likely winner.
 
-
+## Datasets and Engineering 
 
 Building a Python program to model fantasy basketball games by using the Yahoo Sports API to scrape player statistics and calculate each team’s expected number 
