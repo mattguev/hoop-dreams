@@ -31,10 +31,11 @@ From these 9, you only need 5 to win. Therefore, one strategy might be to focus 
 
 Yikes. 
 
-Yahoo's deafult tables are notoriously unhelpful for assessing comparative advantages. Furthermore, they don't let you compare "hypothetical team" performance (i.e. in the event of substituting players on your team for free agents) against other players. These more sophisticated visualizations and features are locked behind a premium subscription.
+Yahoo's deafult tables are notoriously unhelpful for assessing comparative advantages. Furthermore, they don't let you compare "hypothetical team" performance (i.e. after certain roster adjustments) against other players. These more sophisticated visualizations and features are locked behind a premium subscription.
 
 ## Audience and Features
-Solution: Build a program that unlocks a premium feature like basic matchup analysis--comparing two teams' expected statistical outputs and declaring the likely winner.
+Solution: Build a program that provides a premium function like basic matchup analysis--comparing two teams' expected statistical outputs and declaring the likely winner. This program can also model matchups, accounting for certain hypothetical roster adjustments.
+
 
 ## Datasets and Engineering 
 
