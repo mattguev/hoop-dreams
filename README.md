@@ -39,4 +39,4 @@ Solution: Build a program that provides a premium function like basic matchup an
 
 ## Datasets and Engineering 
 
-Building a Python program to model fantasy basketball games by using the Yahoo Sports API to scrape player statistics and calculate each team’s expected number 
+Building a Python program to model fantasy basketball games by using the Yahoo Sports API to scrape season averages (or last* interval stats to avoid low-GP outliers) and calculate each team’s expected number of points.
