@@ -30,11 +30,9 @@ One way to create a winning team is to use early draft picks on elite players wh
 
 An even better example, but at the Forward spot, is Nikola Jokic. Even at 6'11 and 284 lbs, he is able to [pass, shoot, and defend his position at elite levels](https://www.youtube.com/watch?v=hQQQDc98efQ). Over the course of a Fantasy season, he is consistently above average for Field Goals, Free Throws, Points, Rebounds, Assists, Steals, and Blocks--7 out of 9 categories!.
 
-Yet, there are few of these stars by definition--[barely 20 players currently produce 1 standard deviation above the league average on at least 5 categories (i.e. category z-score > 1.0)](https://hashtagbasketball.com/fantasy-basketball-rankings). 
+Yet, there are few of these stars by definition--[barely 20 players currently produce 1 standard deviation above the league average on at least 5 categories (i.e. category z-score > 1.0)](https://hashtagbasketball.com/fantasy-basketball-rankings). In a balanced 12-team league, this means you will have 2 at most. The remaining 11, you can draft based on how their skills fit alongside your superstar, your estimates of their growth trajectory, injury likelihood, etc. At the end of the draft, your roster will have 13 players. But, make no mistake, it is far from a finished product.
 
-In a balanced 12-team league, this means you will have 2 of them at most. The remaining 11, you can draft based on how their skills fit alongside your superstar, your estimates of their growth trajectory, injury likelihood, etc. At the end of the draft, your roster will have 13 players. But, make no mistake, it is far from a finished product.
-
-You enter your first matchup with a few stars that outperform the league in 5-7 categories, and a rotating cast of players who are otherwise unremarkable but can play backup on off nights or specialize in their weaknesses. Your opponent does the same thing. The question now becomes: how do you gain an advantage? The answer is 
+You enter your first matchup with a few stars that outperform the league in 5-7 categories, and a rotating cast of players who are otherwise unremarkable but can keep the team competitive on off nights. Your opponent does the same thing. The question now becomes: how do you gain an advantage? The answer is 
 
 however, you need to be able to compare how your players perform on average against your opponent's players. That can be difficult to do if this is what you're looking at:
 
