@@ -69,11 +69,11 @@ Data cleaning in this form consisted of the "stat_agg()" function which would in
 
 ## Results and Visualization
 
-After cleaning the data and presenting Users can input a league, Team A, and Team B to produce a visualization similar to the one below:
+After cleaning the data, I designed a visualization function using Python's matplotlib where users can input a league, Team A, and Team B to produce a visualization similar to the one below:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/matchupviz1.JPG?raw=true)
 
-
+The function is programmed with the scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. 
 
 
 
