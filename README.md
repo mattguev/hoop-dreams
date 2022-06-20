@@ -62,14 +62,14 @@ These levels are represented in Python using dictionaries of lists. For example,
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/roster1.JPG?raw=true)
 
-Data cleaning in this form consisted of a function which would index the necessary rosters and aggregate their statistics into a new dictionary:
+Data cleaning in this form consisted of the "stat_agg()" function which would index the necessary rosters and aggregate their season average statistics into a new dictionary:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/cleanroster.JPG?raw=true)
 
 
 ## Results and Visualization
 
-Users can input a league, Team A, and Team B to produce a visualization similar to the one below:
+After cleaning the data and presenting Users can input a league, Team A, and Team B to produce a visualization similar to the one below:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/matchupviz1.JPG?raw=true)
 
