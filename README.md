@@ -68,11 +68,15 @@ Data cleaning in this form consisted of the "stat_agg()" function which would in
 
 ## Results and Visualization
 
-After cleaning the data, I designed a visualization function using Python's matplotlib where users can input a league, Team A, and Team B to produce a visualization similar to the one below:
+After cleaning the data, I designed a visualization function using Python's matplotlib where users can input the following parameters to produce a visualization similar to the one below: 
+- League ID
+- Aggregate Method (e.g. Season average, Last 30 Days, etc.)
+- Team A
+- Team B 
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/matchupviz1.JPG?raw=true)
 
-The function is programmed with the Fantasy Basketball scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. 
+The function is programmed with the Fantasy Basketball scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. Having even a broad picture of the preliminary outcome against your opponent is crucial since it allows users to anticipate tightly contested categories, supplement their team with the appropriate streamers, and deny their opponent valuable resources. 
 
 
 
