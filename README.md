@@ -32,9 +32,9 @@ An even better example, but at the Forward spot, is Nikola Jokic. Even at 6'11 a
 
 Yet, there are few of these stars by definition--[barely 20 players currently produce 1 standard deviation above the league average on at least 5 categories (i.e. category z-score > 1.0)](https://hashtagbasketball.com/fantasy-basketball-rankings). In a balanced 12-team league, this means you will have 2 at most. The remaining 11, you can draft based on how their skills fit alongside your superstar, your estimates of their growth trajectory, injury likelihood, etc. At the end of the draft, your roster will have 13 players. But, make no mistake, it is far from a finished product.
 
-You enter your first matchup with a few stars that outperform the league in 5-7 categories, and a rotating cast of players who are otherwise unremarkable but can keep the team competitive on off nights. Your opponent does the same thing. The question now becomes: how do you gain an advantage? The answer is 
+You enter your first matchup with a core group that collectively outperform the league in 5-7 categories, and a rotating cast of 2-3 players whose niche contributions can keep the team competitive on off nights ("streamers"). Managers are allowed a limited number of player adds/drops ("streams") each week, so you can substitute these streamers for any free agent without worrying about your long-term strategy. All else equal, finding an advantage will come down to how you use these streamers. You can add them temporarily to pull away in a tightly contested category, supplement injured players from the core group, or in some rare cases even promote them into the core group. 
 
-however, you need to be able to compare how your players perform on average against your opponent's players. That can be difficult to do if this is what you're looking at:
+You can only decide on who you want to use, and how, once you compare how your team performs on average relative to your opponent's players for the week. That can be difficult to do if this is what you're looking at:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/yfmatchup2.JPG?raw=true)
 
