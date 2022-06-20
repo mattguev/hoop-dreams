@@ -34,18 +34,24 @@ Yet, there are few of these stars by definition--[barely 20 players currently pr
 
 You enter your first matchup with a core group that collectively outperform the league in 5-7 categories, and a rotating cast of 2-3 players whose niche contributions can keep the team competitive on off nights ("streamers"). Managers are allowed a limited number of adds/drops ("streams") each week, so you can substitute these streamers for any available player without adjusting about your long-term strategy. All else equal, finding an advantage will come down to how you use these streamers. You can add them temporarily to pull away in a tightly contested category, temporarily substitute them for injured players, or in some rare cases even promote them into the core group. 
 
-The caveat is that you can only decide on a specific tactic once you have a broad picture how your team will perform relative to your opponent for the week. That can be difficult to do if this is what you're looking at:
+The caveat is that you can only decide on a specific tactic once you have a broad picture how your team will perform relative to your opponent for the week. That can be pretty difficult to do if this is what you're looking at:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/yfmatchup2.JPG?raw=true)
 
 Yikes. 
 
-Yahoo's deafult tables are notoriously unhelpful for assessing comparative advantages. Furthermore, they don't let you compare "hypothetical team" performance (i.e. after certain roster adjustments) against other players. These more sophisticated visualizations and features are locked behind a premium subscription.
+Yahoo's default tables are notoriously unhelpful for assessing comparative advantages. Furthermore, they don't let you compare "hypothetical team" performance (i.e. after certain roster adjustments) against other players. These features are locked behind a premium subscription.
 
 ## Audience and Features
-Solution: Build a program that provides a premium function like basic matchup analysis--comparing two teams' expected statistical outputs and declaring the likely winner. This program can also model matchups, accounting for certain hypothetical roster adjustments.
+Solution: Build a program that helps Fantasy Basketball players with their roster decision-making by providing the following features:
 
+1. Model team performance after certain roster adjustments, without having to commit to those adjustments.
+2. Basic matchup analysis--comparing two teams' expected statistical outputs and declaring the likely score.
 
 ## Datasets and Engineering 
 
 Building a Python program to model fantasy basketball games by using the Yahoo Sports API to scrape season averages (or last* interval stats to avoid low-GP outliers) and calculate each team’s expected number of points.
+
+
+
+
