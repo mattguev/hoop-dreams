@@ -32,7 +32,7 @@ An even better example, but at the Forward spot, is Nikola Jokic. Even at 6'11 a
 
 Yet, there are few of these stars by definition--[barely 20 players currently produce 1 standard deviation above the league average on at least 5 categories (i.e. category z-score > 1.0)](https://hashtagbasketball.com/fantasy-basketball-rankings). In a balanced 12-team league, this means you will have 2 at most. The remaining 11, you can draft based on how their skills fit alongside your superstar, your estimates of their growth trajectory, injury likelihood, etc. At the end of the draft, your roster will have 13 players. But, make no mistake, it is far from a finished product.
 
-You enter your first matchup with a core group that collectively outperform the league in 5-7 categories, and a rotating cast of 2-3 players whose niche contributions can keep the team competitive on off nights ("streamers"). Managers are allowed a limited number of adds/drops ("streams") each week, so you can substitute these streamers for any available player without adjusting about your long-term strategy. All else equal, finding an advantage will come down to how you use these streamers. You can add them temporarily to pull away in a tightly contested category, temporarily substitute them for injured players, or in some rare cases even promote them into the core group. 
+You enter your first matchup with a core group that collectively outperform the league in 5-7 categories, and a rotating cast of 2-3 players ("streamers") whose niche contributions can keep the team competitive during off nights. Managers are allowed a limited number of adds/drops ("streams") each week, so you can substitute these streamers for any available player without modifying your long-term strategy. All else equal, finding an advantage will come down to how you use these streamers. You can temporarily add them to pull away in a tightly contested category, substitute them for injured players, or in some rare cases even promote them into the core group. 
 
 The caveat is that you can only decide on a specific tactic once you have a broad picture how your team will perform relative to your opponent for the week. That can be pretty difficult to do if this is what you're looking at:
 
@@ -66,14 +66,13 @@ Data cleaning in this form consisted of the "stat_agg()" function which would in
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/cleanroster.JPG?raw=true)
 
-
 ## Results and Visualization
 
 After cleaning the data, I designed a visualization function using Python's matplotlib where users can input a league, Team A, and Team B to produce a visualization similar to the one below:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/matchupviz1.JPG?raw=true)
 
-The function is programmed with the scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. 
+The function is programmed with the Fantasy Basketball scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. 
 
 
 
