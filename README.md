@@ -1,17 +1,17 @@
 # Fantasy Basketball Game Predictor
 
 ## Motivation
-Fantasy Basketball puts players in the shoes of a general manager (GM) building their team to compete over the course of an NBA season. But not everyone realizes how tight those shoes can be. The game tasks its players with navigating the issues that real GMs get paid millions to figure out alongside an office of professional coaches, trainers, and scouts: 
+Fantasy Basketball puts players in the shoes of a general manager (GM) building their team to compete over the course of an NBA season. But not everyone realizes how tight those shoes can be. Players are tasked with navigating the sort of questions that real GMs get paid millions to figure out alongside an office of professional coaches, trainers, and scouts: 
 
-- "Can I win if I build my team around this superstar's skillset?"
-- "Do I trust Anthony Davis to stay healthy for the season if I draft him?"
-- "How likely is this rookie to immediately make an impact?"
-- "No seriously, Anthony Davis is available in the 4th round and I'm up next..."
+- "Which superstar can I build my team around?"
+- "Do I trust Anthony Davis to stay healthy if I trade for him?..."
+- "How soon will it take this rookie to figure things out and start impacting games?"
+- "Is this player available right now because he's undervalued, or because people know something I don't?"
+- "...aaand Anthony Davis is out for the season again, which Free Agents can I drop him for?"
 
-New managers are constantly bombarded with decisions and forced to see the consequences play out in real-time. They learn, sooner or later, to put their money where their mouth is. And I love that. 
+Confronted with endless choices and forced to see the consequences play out in real-time, new managers quickly learn to put their money where their mouth is.
 
-## The Rules
-An overview of the format I play (Head-to-Head, 9-Categories):   
+## The Rules (Head-to-Head, 9-Categories)
   - A league starts its season with managers each selecting ("drafting") 10-16 players. Draft order is based on a random draw.
   - Every week, managers are matched up with an opponent from their league.
   - Managers compete to win 9 categories: \
@@ -20,12 +20,23 @@ An overview of the format I play (Head-to-Head, 9-Categories):
   - Winning each category is worth 1 point. A tie results in no points for either manager.
   - Managers can replace any player with a current active NBA player ("Free Agents"), provided that neither is currently mid-game. 
 
-There are 9 ways to keep score in a game of fantasy basketball, compared to just 1 in real life. 
-
-
 ![](https://github.com/mattguev/hoop-dreams/blob/main/yfmatchup.JPG?raw=true)
-     
-From these 9, you only need 5 to win. Therefore, one strategy might be to focus on 5 or 6 stats. To do this effectively, however, you need to be able to compare how your players perform on average against your opponent's players. That can be difficult to do if this is what you're looking at:
+
+## Game Theory and Adjustments
+
+There are 9 ways to keep score in a game of fantasy basketball, compared to just 1 in real life. Out of these 9, you only need 5 to win.
+
+One way to create a winning team is to use early draft picks on elite players who consistently dominate the league in correlated statistics. An example at the Guard position would be Steph Curry, whose [prolific ball handling and shooting](https://www.youtube.com/watch?v=7fPcse1phtk) enables him to produce huge Free Throw, Points, and 3-Point numbers on any given night. This individual greatness is made even greater by a [selfless willingness to pass](https://www.youtube.com/watch?v=rL_OflGAg1M) that makes him a great Assist vehicle.
+
+An even better example, but at the Forward spot, is Nikola Jokic. Even at 6'11 and 284 lbs, he is able to [pass, shoot, and defend his position at elite levels](https://www.youtube.com/watch?v=hQQQDc98efQ). Over the course of a Fantasy season, he is consistently above average for Field Goals, Free Throws, Points, Rebounds, Assists, Steals, and Blocks--7 out of 9 categories!.
+
+Yet, there are few of these stars by definition--[barely 20 players currently produce 1 standard deviation above the league average on at least 5 categories (i.e. category z-score > 1.0)](https://hashtagbasketball.com/fantasy-basketball-rankings). 
+
+In a balanced 12-team league, this means you will have 2 of them at most. The remaining 11, you can draft based on how their skills fit alongside your superstar, your estimates of their growth trajectory, injury likelihood, etc. At the end of the draft, your roster will have 13 players. But, make no mistake, it is far from a finished product.
+
+You enter your first matchup with a few stars that outperform the league in 5-7 categories, and a rotating cast of players who are otherwise unremarkable but can play backup on off nights or specialize in their weaknesses. Your opponent does the same thing. The question now becomes: how do you gain an advantage? The answer is 
+
+however, you need to be able to compare how your players perform on average against your opponent's players. That can be difficult to do if this is what you're looking at:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/yfmatchup2.JPG?raw=true)
 
