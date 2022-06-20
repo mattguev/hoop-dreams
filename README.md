@@ -43,14 +43,37 @@ Yikes.
 Yahoo's default tables are notoriously unhelpful for assessing comparative advantages. Furthermore, they don't let you compare "hypothetical team" performance (i.e. after certain roster adjustments) against other players. These features are locked behind a premium subscription.
 
 ## Audience and Features
-Solution: Build a program that helps Fantasy Basketball players with their roster decision-making by providing the following features:
+Solution: Build a program that helps Yahoo Fantasy Basketball players with their roster decision-making by providing the following features:
 
 1. Model team performance after certain roster adjustments, without having to commit to those adjustments.
 2. Basic matchup analysis--comparing two teams' expected statistical outputs and declaring the likely score.
 
 ## Datasets and Engineering 
 
-Building a Python program to model fantasy basketball games by using the Yahoo Sports API to scrape season averages (or last* interval stats to avoid low-GP outliers) and calculate each team’s expected number of points.
+The data for this project was scraped from the Yahoo Fantasy Basketball website using the [Yahoo Fantasy API](https://yahoo-fantasy-api.readthedocs.io/en/latest/introduction.html) ("YFA") and [Yahoo OAuth](https://pypi.org/project/yahoo-oauth/) Python packages.
+
+The program is structured such that users must verify themselves via the Yahoo Email account they use to play Fantasy Basketball. Afterwards, the YFA package grants them access to fantasy information at various abstraction levels:
+- Top level: Game class. A game, in the Yahoo! fantasy sense, is individual leagues you actively and historically participated in.
+- Next level: League class. This is a particular instance of a game. It represents a particular season and game code that you played in. The league is found by its unique league ID.
+- Next level: Team class. Within a league there are individual teams. The teams can be your own teams that you owned or one of your opponents.
+- Lowest level: Players. Players either exist on a team or are free agents. There is no Player class to represent this level.
+
+These levels are represented in Python using dictionaries of lists. For example, instances of the team class appear like this:
+
+![](https://github.com/mattguev/hoop-dreams/blob/main/roster1.JPG?raw=true)
+
+Data cleaning in this form consisted of a function which would index the necessary rosters and aggregate their statistics into a new dictionary:
+
+![](https://github.com/mattguev/hoop-dreams/blob/main/cleanroster.JPG?raw=true)
+
+
+## Results and Visualization
+
+Users can input a league, Team A, and Team B to produce a visualization similar to the one below:
+
+![](https://github.com/mattguev/hoop-dreams/blob/main/matchupviz1.JPG?raw=true)
+
+
 
 
 
