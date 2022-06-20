@@ -43,10 +43,7 @@ Yikes.
 Yahoo's default tables are notoriously unhelpful for assessing comparative advantages. Furthermore, they don't let you compare "hypothetical team" performance (i.e. after certain roster adjustments) against other players. These features are locked behind a premium subscription.
 
 ## Audience and Features
-Solution: Build a program that helps Yahoo Fantasy Basketball players with their roster decision-making by providing the following features:
-
-1. Model team performance after certain roster adjustments, without having to commit to those adjustments.
-2. Basic matchup analysis--comparing two teams' expected statistical outputs and declaring the likely score.
+Solution: Build a program that helps Yahoo Fantasy Basketball players with their roster decision-making by providing a basic matchup analysis feature--comparing two teams' expected statistical outputs and declaring the likely score.
 
 ## Datasets and Engineering 
 
@@ -78,6 +75,7 @@ After cleaning the data, I designed a visualization function using Python's matp
 
 The function is programmed with the Fantasy Basketball scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. Having even a broad picture of the preliminary outcome against your opponent is crucial since it allows users to anticipate tightly contested categories, supplement their team with the appropriate streamers, and deny their opponent valuable resources. 
 
+Feature under construction: modeliing team performance after certain roster adjustments, without having to commit to those adjustments.
 
 
 
