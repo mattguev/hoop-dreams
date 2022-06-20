@@ -75,7 +75,3 @@ After cleaning the data, I designed a visualization function using Python's matp
 
 The function is programmed with the Fantasy Basketball scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. Having even a broad picture of the preliminary outcome against your opponent is crucial since it allows users to anticipate tightly contested categories, supplement their team with the appropriate streamers, and deny their opponent valuable resources. 
 
-Feature under construction: modeling team performance after certain hypothetical roster adjustments (i.e. no need to actually add/drop players).
-
-
-
