@@ -3,11 +3,11 @@
 ## Motivation
 Fantasy Basketball puts players in the shoes of a general manager (GM) building their team to compete over the course of an NBA season. But not everyone realizes how tight those shoes can be. Players are tasked with navigating the sort of questions that real GMs get paid millions to figure out alongside an office of professional coaches, trainers, and scouts: 
 
-- "Which superstar can I build my team around?"
-- "Do I trust Anthony Davis to stay healthy if I trade for him?..."
-- "How soon will it take this rookie to figure things out and start impacting games?"
-- "Is this player available right now because he's undervalued, or because people know something I don't?"
-- "...aaand Anthony Davis is out for the season again, which Free Agents can I drop him for?"
+- "Which elite superstars can I build my team around?"
+- "Do I trust Anthony Davis to stay healthy if I trade for him, maybe 3rd time's the charm?..."
+- "How soon will it take this rookie to start impacting games?"
+- "Is this player available because he's undervalued, or because people know something I don't?"
+- "...aaand Anthony Davis is out for the season again."
 
 Confronted with endless choices and forced to see the consequences play out in real-time, new managers quickly learn to put their money where their mouth is.
 
