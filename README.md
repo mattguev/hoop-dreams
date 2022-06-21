@@ -75,7 +75,7 @@ After cleaning the data, I designed a visualization function using Python's matp
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/matchupviz1.JPG?raw=true)
 
-Here, we see Joe Embiid (my team) is expected to win 5-4 against my opponent for the week. Yet, 3 tightly contested categories (Field Goal %, Steals, and Turnovers) can easily reverse that outcome. As a result, I might drop a few of my streamers to pick up a Forward or Center. Their close proximity to the rim and rare need to make tough passes results in a higher Field Goal %, as well as lower Turnovers and the occasional Steal. A power forward like Larry Nance, Jr. fits that description perfectly. We could add him somewhere along the line and run the matchup analysis again to then see how the outlook changes. 
+Here, we see Joe Embiid (my team) is expected to win 5-4 against my opponent for the week. Yet, 3 tightly contested categories (Field Goal %, Steals, and Turnovers) can easily reverse that outcome. As a result, I might drop a few of my streamers to pick up a Forward or Center. Their close proximity to the rim and minimal passing responsibility usually results in a higher Field Goal %, lower Turnovers, and even the occasional Steal. Someone like Larry Nance, Jr. fits that description perfectly. We could add him and run the matchup analysis again to see how the outlook changes. 
 
 ## Conclusion
 It's ultimately important to remember that data and prediction are merely tools for decision making. This program can't tell managers exactly who to add and when for a sure victory, but it can significantly narrow down their choices so they get closer to making the right ones.
