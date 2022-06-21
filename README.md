@@ -45,6 +45,8 @@ Yahoo's default tables are notoriously unhelpful for assessing comparative advan
 ## Audience and Features
 Solution: Build a program that helps Yahoo Fantasy Basketball players with their roster decision-making by providing a basic matchup analysis feature--comparing two teams' expected statistical outputs and declaring the likely score.
 
+The program will be designed with the Fantasy Basketball scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. Having even a broad picture of the preliminary outcome against your opponent is crucial since it allows users to anticipate tightly contested categories, supplement their team with the appropriate streamers, and deny their opponent valuable resources. 
+
 ## Datasets and Engineering 
 
 The data for this project was scraped from the Yahoo Fantasy Basketball website using the [Yahoo Fantasy API](https://yahoo-fantasy-api.readthedocs.io/en/latest/introduction.html) ("YFA") and [Yahoo OAuth](https://pypi.org/project/yahoo-oauth/) Python packages.
@@ -59,7 +61,7 @@ These levels are represented in Python using dictionaries of lists. For example,
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/roster1.JPG?raw=true)
 
-Data cleaning in this form consisted of the "stat_agg()" function which would index the necessary rosters and aggregate their season average statistics into a new dictionary:
+Data cleaning in this form consisted of the "stat_agg()" function which would index the necessary rosters and aggregate their season average statistics into a new dictionary like the one below:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/cleanroster.JPG?raw=true)
 
@@ -73,5 +75,7 @@ After cleaning the data, I designed a visualization function using Python's matp
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/matchupviz1.JPG?raw=true)
 
-The function is programmed with the Fantasy Basketball scoring rules detailed above, and users will be able to see the expected score between any two teams in the league based on their players' season averages. Having even a broad picture of the preliminary outcome against your opponent is crucial since it allows users to anticipate tightly contested categories, supplement their team with the appropriate streamers, and deny their opponent valuable resources. 
+Here, we see Joe Embiid (my team) is expected to win 5-4 against my opponent for the week. Yet, 3 tightly contested categories (Field Goal %, Steals, and Turnovers) can easily reverse that outcome. As a result, I might drop a few of my streamers to pick up a Forward or Center. These are typically tall, powerful players who operate closer to the rim and rarely make plays. This specialized role tends to result in better Field Goal %, as well as lower turnovers and the occasional steal. A Power Forward like Larry Nance, Jr. fits that description perfectly, so we might add him and run the matchup analysis again to see how the outlook changes.
 
+FUTURE UPDATES: 
+- matchup analysis for "hypothetical rosters" (i.e. no need to actually add/drop to see how they would affect the matchup)
