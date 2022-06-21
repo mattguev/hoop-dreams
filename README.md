@@ -78,7 +78,7 @@ After cleaning the data, I designed a visualization function using Python's matp
 Here, we see Joe Embiid (my team) is expected to win 5-4 against my opponent for the week. Yet, 3 tightly contested categories (Field Goal %, Steals, and Turnovers) can easily reverse that outcome. As a result, I might drop a few of my streamers to pick up a Forward or Center. These are typically tall, powerfull players who shoot well without having to make tough passes because operate closer to the rim. This specialized role results in better Field Goal %, as well as lower Turnovers and the occasional Steal. A Power Forward like Larry Nance, Jr. fits that description perfectly. We would add him and run the matchup analysis again to then see how the outlook changes. 
 
 ## Conclusion
-Much like in real basketball, this program is merely another tool for decision making. It can't tell you exactly who to add and when, but it can narrow down your decisions and get you closer to making the right ones.
+Ultimately though, it's important to remember that data and prediction are merely tools for decision making. This program can't tell managers exactly who to add and when for a sure victory, but it can narrow down their decisions so they're closer to making the right ones.
 
 FUTURE UPDATES: 
 - matchup analysis for "hypothetical rosters" (i.e. no need to actually add/drop to see how they would affect the matchup)
