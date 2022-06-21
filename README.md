@@ -1,7 +1,7 @@
 # Fantasy Basketball Game Predictor
 
 ## Motivation
-Fantasy Basketball puts players in the shoes of a general manager (GM) building their team to compete over the course of an NBA season. But not everyone realizes how tight those shoes can be. Players are tasked with navigating the sort of questions that real GMs get paid millions to figure out alongside an office of professional coaches, trainers, and scouts: 
+Fantasy Basketball puts players in the shoes of a general manager (GM) building their team to compete over the course of an NBA season. But those shoes are tighter than most realize. In them, you are tasked with navigating the sort of questions that real GMs get paid millions to sort out alongside an office of professional coaches, trainers, and scouts: 
 
 - "Which elite superstars can I build my team around?"
 - "Do I trust Anthony Davis to stay healthy if I trade for him, maybe 3rd time's the charm?..."
