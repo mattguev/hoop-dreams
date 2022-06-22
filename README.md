@@ -4,10 +4,10 @@
 Fantasy Basketball puts players in the shoes of a general manager (GM) building their team to compete over the course of an NBA season. But those shoes are tighter than most realize. In them, you are tasked with navigating hard questions that real GMs get paid millions to sort out alongside an office of professional coaches, trainers, and scouts: 
 
 - "Which elite superstars can I build my team around?"
-- "Do I trust Anthony Davis to stay healthy if I trade for him, maybe 3rd time's the charm?..."
+- "Do I trust Anthony Davis to stay healthy if I trade for him..."
 - "How soon will it take this rookie to start impacting games?"
 - "Is this player available because he's undervalued, or because people know something I don't?"
-- "...aaand Anthony Davis is out for the season again."
+- "damn...Anthony Davis is out for the season again."
 
 Confronted with endless choices and forced to see the consequences play out in real-time, new managers quickly learn to put their money where their mouth is.
 
