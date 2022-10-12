@@ -33,7 +33,7 @@ Yet, there are few of these stars by definition--[barely 20 players currently pr
 
 You enter your first matchup with a core group that collectively outperforms the league in 5-7 categories, and a rotating cast of 2-3 players ("streamers") whose niche contributions can keep the team competitive during off nights. Managers are allowed a limited number of adds/drops ("streams") each week, so you can substitute these streamers for any available player without modifying your long-term strategy. All else equal, finding an advantage will come down to how you use these streamers. You can temporarily add them to pull away in a tightly contested category, substitute them for injured players, or in some rare cases even promote them into the core group. 
 
-The caveat is that you can only decide on a specific tactic once you have a broad picture how your team will perform relative to your opponent for the week. That can be a difficult task if this is what you're looking at:
+The problem is that you can only decide on a specific tactic once you have a broad picture how your team will perform relative to your opponent for the week. That can be a difficult task if this is what you're looking at:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/yfmatchup2.JPG?raw=true)
 
@@ -60,7 +60,7 @@ These levels are represented in Python using dictionaries of lists. For example,
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/roster1.JPG?raw=true)
 
-Data cleaning in this form consisted of the "stat_agg()" function which would index the necessary rosters and aggregate their season average statistics into a new dictionary like the one below:
+Data cleaning in this case consisted of a custom-designed statistics aggregator "stat_agg()" function which would index the necessary rosters and aggregate their season average statistics into a new dictionary like the one below:
 
 ![](https://github.com/mattguev/hoop-dreams/blob/main/cleanroster.JPG?raw=true)
 
@@ -78,6 +78,3 @@ Here, we see Joe Embiid (my team) is expected to win 5-4 against my opponent for
 
 ## Conclusion
 It's ultimately important to remember that data and prediction are merely tools for decision making. This program can't tell managers exactly who to add and when for a sure victory, but it can significantly narrow down their choices so they get closer to making the right ones.
-
-FUTURE UPDATES: 
-- matchup analysis for "hypothetical rosters" (i.e. no need to actually add/drop to see how they would affect the matchup)
